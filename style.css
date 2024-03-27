@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .tire-container {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    position: relative;
+  }
+  
+  .tire {
+    width: 100%;
+    height: 100%;
+    animation: rotateTire 0.5s linear infinite;
+  }
+  
+  @keyframes rotateTire {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
